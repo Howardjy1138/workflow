@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Howardjy1138/workflow/issues"
   },
-  "homepage": "https://github.com/Howardjy1138/workflow#readme"
+  "homepage": "https://github.com/Howardjy1138/workflow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
 }
