@@ -1,0 +1,19 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "My web Workflow with NPM, SASS,Gulp and More",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Howardjy1138/workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Howardjy1138/workflow/issues"
+  },
+  "homepage": "https://github.com/Howardjy1138/workflow#readme"
+}
