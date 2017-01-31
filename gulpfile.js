@@ -16,9 +16,9 @@ var APPPATH = {
 };
 
 gulp.task('sass',function () {
-    return gulp.src('SOURCEPATHS.sassSource')
+    return gulp.src(SOURCEPATHS.sassSource)
         .pipe(sass({outputStyle:'expanded'}).on('error',sass.logError))
-        .pipe(gulp.dest('APPPATH.css'));
+        .pipe(gulp.dest(APPPATH.css));
 });
 gulp.task('serve',['sass'],function(){
     browserSync.init([APPPATH.css + '/*.css',APPPATH.root +'/*.html',APPPATH.js+'/*.js'],{
