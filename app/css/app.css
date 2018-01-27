@@ -7,6 +7,5 @@ h1 {
 }
 
 h1:hover {
-  -webkit-transition: color 1s ease;
   transition: color 1s ease;
 }
